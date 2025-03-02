@@ -1,0 +1,21 @@
+package oops1;
+
+
+public class Person1 {
+
+	 String name;
+	    int age;
+
+	    // Constructor to initialize name and age
+	   public Person1(String name, int age) {
+	        this.name = name;
+	        this.age = age;
+	    }
+
+	    // Method to display Person details
+	   public void display() {
+	        System.out.println("Name: " + name);
+	        System.out.println("Age: " + age);
+	    }
+	}
+
